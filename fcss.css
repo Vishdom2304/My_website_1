@@ -132,6 +132,12 @@ opacity: 1.0
 }
 
 @media screen and (max-width: 600px) {
-li.right, li { float: none; }
-header img {float: none; }
+li.right, li {
+    float: none; 
+    max-width: 100%;
+}
+header img {
+    float: none; 
+    max-width: 100%;
+}
 }
