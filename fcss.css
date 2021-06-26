@@ -131,7 +131,7 @@ img:hover {
 opacity: 1.0
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
 ul li li.right{
     float: none; 
     max-width: 100%;
