@@ -182,7 +182,10 @@ opacity: 1.0
 }
 
 @media screen and (max-width: 600px) {
-  ul.topnav li, li.right { 
+  ul.topnav li { 
     float: none; 
+  }
+  ul.topnav li.right{
+      float: none;
   }
 }
