@@ -152,7 +152,7 @@ color : rgb(0, 255, 0);
 text-align : left;
 font-family : courier;
 border : 1px solid tomato;
-broder-radius: 20px;
+border-radius: 20px;
 padding : 20px;
 margin : 30px;
 background-color:rgba(0, 0, 0, 0.6); 
