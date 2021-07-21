@@ -111,7 +111,7 @@ background-color: #000000;
 }
 
 .drpdwn{
-  display: block;
+  display: inline-block;
   color: black;
   background-color: rgb(150, 150, 150);
   min-width: 200px;
@@ -181,7 +181,35 @@ header img{
 img:hover {
 opacity: 1.0
 }
+.row {
+    padding-top: 100px;
+}
+.first {
+    animation: left_to_right 3s ease;
+}
 
+.second {
+    animation: right_to_left 3s ease;
+}
+
+@keyframes right_to_left {
+    from {
+        margin-left: 50%;
+
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes left_to_right {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 600px) {
   ul.topnav li { 
     float: none; 
