@@ -204,7 +204,7 @@ opacity: 1.0
 
 @keyframes left_to_right {
     from {
-        margin-left: -100%;
+        margin-left: -60%;
     }
     to {
         margin-left: 0;
